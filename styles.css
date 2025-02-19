@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbf8cc; /* Lemon Chiffon */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 400px; /* Normal size */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fde4cf; /* Champagne Pink */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headings */
+h2 {
+    color: #0c0c0c; /* Electric Blue */
+    margin-bottom: 15px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #a3c4f3; /* Jordy Blue */
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    background-color: #90dbf4; /* Non-Photo Blue */
+    color: #333;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn-success {
+    background-color: #A3C4F3 !important; /* Jordy Blue */
+    border-color: #A3C4F3 !important;
+    color: #333 !important; /* Dark text for contrast */
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+.btn-warning {
+    background-color: #f1c0e8 !important; /* Pink Lavender */
+    border-color: #A3C4F3 !important;
+    color: #333 !important; /* Dark text for contrast */
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #8eecf5; /* Electric Blue */
+}
+
+/* Links */
+a {
+    color: #f1c0e8; /* Pink Lavender */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcfd2; /* Tea Rose Red */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #b9fbc0; /* Celadon */
+}
+
+table, th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #98f5e1; /* Aquamarine */
+}

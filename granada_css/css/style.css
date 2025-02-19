@@ -1,0 +1,124 @@
+/* ===== General Styles ===== */
+body {
+    background-color: #fbf8cc; /* Lemon Chiffon */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Container Styling ===== */
+.container {
+    margin-top: 30px;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #fde4cf; /* Champagne Pink */
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* ===== Section and Card Styling ===== */
+#description {
+    margin-top: 36px;
+    padding: 50px;
+}
+
+#imgsection {
+    margin-top: 36px;
+}
+
+/* ===== Image Styling ===== */
+.custom-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #a3c4f3; /* Jordy Blue */
+}
+
+/* ===== Button Styles ===== */
+.button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Primary Custom Button */
+.button {
+    background-color: #a3c4f3; /* Jordy Blue */
+    color: #333;
+}
+
+.button:hover {
+    background-color: #ffcfd2; /* Tea Rose Red */
+}
+
+/* Red Button Variant */
+.button.red {
+    background-color: #f1c0e8; /* Pink Lavender */
+}
+
+.button.red:hover {
+    background-color: #cfbaf0; /* Mauve */
+}
+
+/* ===== Bootstrap Button Overrides ===== */
+.btn-danger {
+    background-color: #cfbaf0 !important; /* Mauve */
+    border-color: #cfbaf0 !important;
+    color: #333 !important;
+}
+
+.btn-danger:hover {
+    background-color: #a3c4f3 !important; /* Jordy Blue */
+    border-color: #a3c4f3 !important;
+}
+
+/* Custom Blue Button */
+.btn-custom {
+    background-color: #a3c4f3 !important; /* Jordy Blue */
+    border-color: #a3c4f3 !important;
+    color: #333 !important;
+    padding: 10px 15px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+    background-color: #90dbf4 !important; /* Non-Photo Blue */
+    border-color: #90dbf4 !important;
+}
+
+/* ===== Artist Card Styling ===== */
+.artist-card {
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #98f5e1; /* Aquamarine */
+    border-radius: 5px;
+    background-color: #f1c0e8; /* Pink Lavender */
+    text-align: center;
+}
+
+/* ===== Table Styles ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #b9fbc0; /* Celadon */
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #98f5e1; /* Aquamarine */
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+#section{
+    margin-top: 36px;
+}
+
+.custom-img{
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+}
+
+.artist-card {
+    margin: 15px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+    .container{
+        margin-top: 30px;
+      
+    }
+    
+
